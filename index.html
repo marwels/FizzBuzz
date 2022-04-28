@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Page Title</title>
+    <title>FizzBuzz</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
         //and for the multiples of five print Buzz. 
         //For numbers which are multiples of both three and five print FizzBuzz.
 
-        let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
+        let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: ", ""));
         //  wrapped the prompt call in a parseInt function so that a number is returned from the user’s input.
         for (i = 1; i < answer; i++) {
             if (i % 3 === 0 && i % 5 === 0) {
