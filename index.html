@@ -18,10 +18,12 @@
         let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
         //  wrapped the prompt call in a parseInt function so that a number is returned from the user’s input.
         for (i = 1; i < answer; i++) {
-            if (i % 3 === 0) {
-                console.log(Fizz)
+            if (i % 3 === 0 && i % 5 === 0) {
+                console.log(Fizz Buzz);
+            } else if (i % 3 === 0) {
+                console.log(Fizz);
             } else if (i % 5 === 0) {
-                console.log(Buzz)
+                console.log(Buzz);
             } else {
                 console.log(i);
             }
